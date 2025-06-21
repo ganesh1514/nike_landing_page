@@ -36,7 +36,7 @@
 
   /* Custom colors */
   --color-primary: #eceeff;
-  --color-red: #ff6452;
+  --color-coral-red: #ff6452;
   --color-slate-gray: #6d6d6d;
   --color-pale-blue: #eff0fd;
   --color-white-400: rgba(255, 255, 255, 0.8);
@@ -46,6 +46,9 @@
 
   /* Custom screen size (break point) */
   --breakpoint-wide: 1440px;
+
+  --bg-hero: url(src/assets/images/collection-background.svg);
+  --bg-card: url(src/assets/images/thumbnail-background.svg);
 }
 /* --spacing : 0.25rem  -> 4px*/
 @layer components {

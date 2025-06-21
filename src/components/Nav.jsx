@@ -54,7 +54,7 @@ const Nav = () => {
           <img src={headerLogo} alt="Logo" width={130} height={9} />
         </a>
         <div
-          className="hidden max-lg:block cursor-pointer z-[11]"
+          className="hidden max-lg:block cursor-pointer z-[21]"
           onClick={toggleMenu}
         >
           <img src={hamburger} alt="menu_logo" width={25} height={25} />

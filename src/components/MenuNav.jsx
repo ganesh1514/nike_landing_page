@@ -5,7 +5,7 @@ const MenuNav = ({ isVisible }) => {
     <ul
       className={`
         flex flex-col gap-[10px] justify-between items-left 
-        absolute z-10 w-full 
+        absolute z-[20] w-full 
         bg-red-50 padding-x py-8 lg:hidden 
         top-0 left-0
         transform transition-all duration-300 ease-in-out
