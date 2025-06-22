@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { arrowRight } from "../assets/icons";
 import { bigShoe1 } from "../assets/images";
+
 import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
 import { shoes, statistics } from "../constants";
@@ -52,7 +53,9 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative flex-1 flex justify-center items-center  xl:min-h-screen max-xl:py-40 bg-primary bg-[image:var(--bg-hero)] bg-hero bg-cover bg-center">
+      <div
+        className={`relative flex-1 flex justify-center items-center  xl:min-h-screen max-xl:py-40 bg-primary  bg-[image:url(/collection-background.svg)] bg-hero bg-cover bg-center`}
+      >
         <img
           src={bigShoeImg}
           alt="show collection"
