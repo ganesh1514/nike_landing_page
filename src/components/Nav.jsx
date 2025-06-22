@@ -62,7 +62,7 @@ const Nav = () => {
         {isMenuOpen ? (
           <MenuNav isVisible={isMenuVisible} />
         ) : (
-          <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          <ul className=" flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map((link) => (
               <li key={link.label}>
                 <a
