@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { arrowRight } from "../assets/icons";
-import { bigShoe1 } from "../assets/images";
+import { bigShoe1, collectionBackground } from "../assets/images";
 
 import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
@@ -54,7 +54,8 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className={`relative flex-1 flex justify-center items-center  xl:min-h-screen max-xl:py-40 bg-primary  bg-[image:url(/collection-background.svg)] bg-hero bg-cover bg-center`}
+        className={`relative flex-1 flex justify-center items-center  xl:min-h-screen max-xl:py-40 bg-primary  bg-hero bg-cover bg-center`}
+        style={{ backgroundImage: `url("${collectionBackground}")` }}
       >
         <img
           src={bigShoeImg}

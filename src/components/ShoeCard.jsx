@@ -1,3 +1,4 @@
+import { thumbnailBackground } from "../assets/images";
 const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe) {
@@ -16,9 +17,10 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
       onClick={handleClick}
     >
       <div
-        className="flex justify-center items-center 
-        bg-[image:url(/thumbnail-background.svg)]
-        bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4"
+        className={`flex justify-center items-center 
+        
+        bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4`}
+        style={{ backgroundImage: `url("${thumbnailBackground}")` }}
       >
         <img
           src={imgURL.thumbnail}
