@@ -18,7 +18,6 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
     >
       <div
         className={`flex justify-center items-center 
-        
         bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4`}
         style={{ backgroundImage: `url("${thumbnailBackground}")` }}
       >
